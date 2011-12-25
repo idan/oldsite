@@ -5,23 +5,6 @@ body {
     padding: 0 1em;
 }
 
-/*ul, ol {
-    list-style-position: outside;
-    padding: 0;
-
-}
-
-.framedimage {
-    padding: 9px;
-    border: 1px solid #ddd;
-    background: white;
-    img {
-        display: block;
-        border: none;
-    }
-}
-*/
-
 #pageheader {
     padding-top: 1 * $baseline-rems;
     height: (3 * $baseline-rems);
@@ -118,6 +101,32 @@ body {
         color: #888;
         padding-right: 1rem;
     }
+
+    .index {
+        @include clearfix;
+        & + .index {
+            margin-top: $baseline-rems;
+        }
+        header { 
+            min-width: 10rem;
+            max-width: 22rem;
+            margin-left: 5rem;
+            padding: 0;
+        }
+        time {
+            padding: 0;
+            width: 4.5rem;
+            margin-right: 0.5rem;
+            float: left;
+        }
+        small {
+            font-size: 0.8em;
+            color: #888;
+        }
+    }
+
+
+
 }
 
 ul, ol {
