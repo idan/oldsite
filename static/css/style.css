@@ -739,15 +739,42 @@ ul, ol {
   padding: 0;
 }
 
+/* line 137, ../../_sass/_mobile.scss */
+.bigavatar {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+/* line 140, ../../_sass/_mobile.scss */
+.bigavatar img {
+  max-width: 100%;
+  display: block;
+}
+/* line 144, ../../_sass/_mobile.scss */
+.bigavatar .framed {
+  display: block;
+  background-color: white;
+  margin: 0 auto;
+  padding: .45rem;
+  border: 1px solid #ddd;
+  max-width: 24rem;
+}
+
+/* line 155, ../../_sass/_mobile.scss */
+.services small {
+  color: #888;
+  padding-left: 0.5rem;
+  font-size: 0.8em;
+}
+
 @media screen and (max-width: 600px) {
-  /* line 139, ../../_sass/_mobile.scss */
+  /* line 165, ../../_sass/_mobile.scss */
   ul, ol {
     padding: 0 1rem;
     list-style-position: normal;
   }
 }
 @media screen and (max-width: 540px) {
-  /* line 148, ../../_sass/_mobile.scss */
+  /* line 174, ../../_sass/_mobile.scss */
   #pagefooter .about p {
     font-size: 0.7rem;
     line-height: 0.98rem;
