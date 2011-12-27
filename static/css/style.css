@@ -471,32 +471,32 @@ html {
   line-height: 1.4em;
 }
 
-/* line 15, ../../_sass/_global.scss */
+/* line 17, ../../_sass/_global.scss */
 body {
   font-family: elena-web-basic, Cambria, serif;
   color: #444;
 }
 
-/* line 20, ../../_sass/_global.scss */
+/* line 22, ../../_sass/_global.scss */
 a {
   color: #d10052;
   text-decoration: none;
 }
-/* line 23, ../../_sass/_global.scss */
+/* line 25, ../../_sass/_global.scss */
 a:visited {
   color: #d10052;
 }
-/* line 26, ../../_sass/_global.scss */
+/* line 28, ../../_sass/_global.scss */
 a:hover {
   text-decoration: underline;
 }
 
-/* line 31, ../../_sass/_global.scss */
+/* line 33, ../../_sass/_global.scss */
 h1, h2, h3 {
   font-weight: 400;
 }
 
-/* line 35, ../../_sass/_global.scss */
+/* line 37, ../../_sass/_global.scss */
 h1 {
   font-size: 2rem;
   line-height: 2.8rem;
@@ -505,11 +505,11 @@ h1 {
   line-height: 2.8rem;
 }
 
-/* line 40, ../../_sass/_global.scss */
+/* line 42, ../../_sass/_global.scss */
 h2 {
-  font-size: 1.333rem;
-  line-height: 1.866rem;
-  margin-top: 3.733rem;
+  font-size: 1.5rem;
+  line-height: 2.1rem;
+  margin-top: 3.5rem;
   margin-bottom: 1.4rem;
   /*
   h2 text can't wrap!
@@ -517,7 +517,7 @@ h2 {
   */
 }
 
-/* line 48, ../../_sass/_global.scss */
+/* line 50, ../../_sass/_global.scss */
 h3 {
   font-size: 0.9rem;
   line-height: 1.26rem;
@@ -528,7 +528,7 @@ h3 {
   letter-spacing: 0.05rem;
 }
 
-/* line 55, ../../_sass/_global.scss */
+/* line 57, ../../_sass/_global.scss */
 p, ul, ol, pre {
   font-size: 1rem;
   line-height: 1.4rem;
@@ -536,7 +536,7 @@ p, ul, ol, pre {
   margin-bottom: 1.4rem;
 }
 
-/* line 59, ../../_sass/_global.scss */
+/* line 61, ../../_sass/_global.scss */
 blockquote {
   border-left: 1px solid rgba(0, 0, 0, 0.2);
   margin-left: 0;
@@ -546,18 +546,18 @@ blockquote {
   color: #666;
 }
 
-/* line 68, ../../_sass/_global.scss */
+/* line 70, ../../_sass/_global.scss */
 code, pre {
   font-family: Inconsolata, Menlo, Ubuntu Mono, Courier, monospace;
 }
 
-/* line 72, ../../_sass/_global.scss */
+/* line 74, ../../_sass/_global.scss */
 code {
   background: #ddd;
   padding: 2px;
 }
 
-/* line 77, ../../_sass/_global.scss */
+/* line 79, ../../_sass/_global.scss */
 pre {
   white-space: pre;
   word-wrap: normal;
@@ -569,11 +569,11 @@ pre {
   line-height: 0.98rem;
   line-height: 1.4rem;
 }
-/* line 86, ../../_sass/_global.scss */
+/* line 88, ../../_sass/_global.scss */
 pre code {
   background: inherit;
 }
-/* line 89, ../../_sass/_global.scss */
+/* line 91, ../../_sass/_global.scss */
 pre .lineno {
   color: #555;
 }

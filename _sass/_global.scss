@@ -7,9 +7,11 @@
 
 html {
     background: white url(../img/bg.png) left top repeat;
+    //background: white url(../img/baselinegrid.png) left top repeat;
     font-size: 1.25em;
     line-height: 1.4em;
     //@include baseline-grid-background;
+
 }
 
 body {
@@ -38,7 +40,7 @@ h1 {
 }
 
 h2 {
-    @include rem(1.333, $top: 2.66667, $bottom: 1);
+    @include rem(1.5, $top: 2.5, $bottom: 1);
     /*
     h2 text can't wrap!
     uneven line-height will break vertical rhythm. :(
@@ -90,3 +92,5 @@ pre {
         color: #555;
     }
 }
+
+
