@@ -5,7 +5,7 @@ title: Cobbler’s Children…
 
 …barefoot no longer.
 
-HERRO, internets. In my best Agent Smith, *we missed you*.
+HERRO, internets. In my best [Agent Smith][agentsmith], *we missed you*.
 
 Once upon a time, I had a blog. It was Wordpress; it got hacked. I sulked for a week and left for greener pastures, also known as Twitter. That was sometime in 2007.
 
@@ -132,6 +132,7 @@ $(function() {
 
 </script>
 
+[agentsmith]: http://youtu.be/glBfBxtJU00?t=40s
 [jekyll]: http://github.com/mojombo/jekyll
 [iawriter]: http://iawriter.com
 [ghpages]: http://pages.github.com
