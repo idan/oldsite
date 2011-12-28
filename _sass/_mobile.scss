@@ -1,8 +1,8 @@
 body {
-    min-width: column-width(4);
-    max-width: column-width(7);
+    min-width: 15rem;
+    max-width: 27rem;
     margin: 0 auto;
-    padding: 0 1em;
+    padding: 0 1rem;
 }
 
 #pageheader {
@@ -112,16 +112,25 @@ body {
             max-width: 22rem;
             margin-left: 5rem;
             padding: 0;
+            h1 {
+                font-size: 1.0rem;
+                line-height: 1.4rem;
+                margin: 0;
+                padding: 0;
+            }
+            .where {
+                font-size: 0.8rem;
+                line-height: 1.4rem;
+                margin: 0;
+                padding: 0;
+                color: #888;
+            }
         }
         time {
             padding: 0;
             width: 4.5rem;
             margin-right: 0.5rem;
             float: left;
-        }
-        small {
-            font-size: 0.8em;
-            color: #888;
         }
     }
 

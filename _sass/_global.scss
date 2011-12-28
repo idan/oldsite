@@ -6,11 +6,15 @@
 }
 
 html {
-    background: white url(../img/bg.png) left top repeat;
-    //background: white url(../img/baselinegrid.png) left top repeat;
+    background-color: white;
+    background: url(../img/bg.png) left top repeat;
     font-size: 1.25em;
     line-height: 1.4em;
     //@include baseline-grid-background;
+
+    &.withbaseline {
+        background: url(../img/baselinegrid.png) left top repeat, url(../img/bg.png) left top repeat;        
+    }
 
 }
 
@@ -74,6 +78,7 @@ code, pre {
 code {
     background: #ddd;
     padding: 2px;
+    white-space: nowrap;
 }
 
 pre {
@@ -87,6 +92,7 @@ pre {
     line-height: 1.4rem;
     code {
         background: inherit;
+        white-space: inherit;
     }
     .lineno {
         color: #555;

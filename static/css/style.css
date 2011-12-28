@@ -466,37 +466,42 @@ table {
 */
 /* line 8, ../../_sass/_global.scss */
 html {
-  background: white url(../img/bg.png) left top repeat;
+  background-color: white;
+  background: url(../img/bg.png) left top repeat;
   font-size: 1.25em;
   line-height: 1.4em;
 }
+/* line 15, ../../_sass/_global.scss */
+html.withbaseline {
+  background: url(../img/baselinegrid.png) left top repeat, url(../img/bg.png) left top repeat;
+}
 
-/* line 17, ../../_sass/_global.scss */
+/* line 21, ../../_sass/_global.scss */
 body {
   font-family: elena-web-basic, Cambria, serif;
   color: #444;
 }
 
-/* line 22, ../../_sass/_global.scss */
+/* line 26, ../../_sass/_global.scss */
 a {
   color: #d10052;
   text-decoration: none;
 }
-/* line 25, ../../_sass/_global.scss */
+/* line 29, ../../_sass/_global.scss */
 a:visited {
   color: #d10052;
 }
-/* line 28, ../../_sass/_global.scss */
+/* line 32, ../../_sass/_global.scss */
 a:hover {
   text-decoration: underline;
 }
 
-/* line 33, ../../_sass/_global.scss */
+/* line 37, ../../_sass/_global.scss */
 h1, h2, h3 {
   font-weight: 400;
 }
 
-/* line 37, ../../_sass/_global.scss */
+/* line 41, ../../_sass/_global.scss */
 h1 {
   font-size: 2rem;
   line-height: 2.8rem;
@@ -505,7 +510,7 @@ h1 {
   line-height: 2.8rem;
 }
 
-/* line 42, ../../_sass/_global.scss */
+/* line 46, ../../_sass/_global.scss */
 h2 {
   font-size: 1.5rem;
   line-height: 2.1rem;
@@ -517,7 +522,7 @@ h2 {
   */
 }
 
-/* line 50, ../../_sass/_global.scss */
+/* line 54, ../../_sass/_global.scss */
 h3 {
   font-size: 0.9rem;
   line-height: 1.26rem;
@@ -528,7 +533,7 @@ h3 {
   letter-spacing: 0.05rem;
 }
 
-/* line 57, ../../_sass/_global.scss */
+/* line 61, ../../_sass/_global.scss */
 p, ul, ol, pre {
   font-size: 1rem;
   line-height: 1.4rem;
@@ -536,7 +541,7 @@ p, ul, ol, pre {
   margin-bottom: 1.4rem;
 }
 
-/* line 61, ../../_sass/_global.scss */
+/* line 65, ../../_sass/_global.scss */
 blockquote {
   border-left: 1px solid rgba(0, 0, 0, 0.2);
   margin-left: 0;
@@ -546,18 +551,19 @@ blockquote {
   color: #666;
 }
 
-/* line 70, ../../_sass/_global.scss */
+/* line 74, ../../_sass/_global.scss */
 code, pre {
   font-family: Inconsolata, Menlo, Ubuntu Mono, Courier, monospace;
 }
 
-/* line 74, ../../_sass/_global.scss */
+/* line 78, ../../_sass/_global.scss */
 code {
   background: #ddd;
   padding: 2px;
+  white-space: nowrap;
 }
 
-/* line 79, ../../_sass/_global.scss */
+/* line 84, ../../_sass/_global.scss */
 pre {
   white-space: pre;
   word-wrap: normal;
@@ -569,21 +575,22 @@ pre {
   line-height: 0.98rem;
   line-height: 1.4rem;
 }
-/* line 88, ../../_sass/_global.scss */
+/* line 93, ../../_sass/_global.scss */
 pre code {
   background: inherit;
+  white-space: inherit;
 }
-/* line 91, ../../_sass/_global.scss */
+/* line 97, ../../_sass/_global.scss */
 pre .lineno {
   color: #555;
 }
 
 /* line 1, ../../_sass/_mobile.scss */
 body {
-  min-width: 15em;
-  max-width: 27em;
+  min-width: 15rem;
+  max-width: 27rem;
   margin: 0 auto;
-  padding: 0 1em;
+  padding: 0 1rem;
 }
 
 /* line 8, ../../_sass/_mobile.scss */
@@ -720,36 +727,46 @@ body {
   margin-left: 5rem;
   padding: 0;
 }
-/* line 116, ../../_sass/_mobile.scss */
+/* line 115, ../../_sass/_mobile.scss */
+.content .index header h1 {
+  font-size: 1.0rem;
+  line-height: 1.4rem;
+  margin: 0;
+  padding: 0;
+}
+/* line 121, ../../_sass/_mobile.scss */
+.content .index header .where {
+  font-size: 0.8rem;
+  line-height: 1.4rem;
+  margin: 0;
+  padding: 0;
+  color: #888;
+}
+/* line 129, ../../_sass/_mobile.scss */
 .content .index time {
   padding: 0;
   width: 4.5rem;
   margin-right: 0.5rem;
   float: left;
 }
-/* line 122, ../../_sass/_mobile.scss */
-.content .index small {
-  font-size: 0.8em;
-  color: #888;
-}
 
-/* line 132, ../../_sass/_mobile.scss */
+/* line 141, ../../_sass/_mobile.scss */
 ul, ol {
   list-style-position: outside;
   padding: 0;
 }
 
-/* line 137, ../../_sass/_mobile.scss */
+/* line 146, ../../_sass/_mobile.scss */
 .bigavatar {
   text-align: center;
   margin-bottom: 2rem;
 }
-/* line 140, ../../_sass/_mobile.scss */
+/* line 149, ../../_sass/_mobile.scss */
 .bigavatar img {
   max-width: 100%;
   display: block;
 }
-/* line 144, ../../_sass/_mobile.scss */
+/* line 153, ../../_sass/_mobile.scss */
 .bigavatar .framed {
   display: block;
   background-color: white;
@@ -759,7 +776,7 @@ ul, ol {
   max-width: 24rem;
 }
 
-/* line 155, ../../_sass/_mobile.scss */
+/* line 164, ../../_sass/_mobile.scss */
 .services small {
   color: #888;
   padding-left: 0.5rem;
@@ -767,14 +784,14 @@ ul, ol {
 }
 
 @media screen and (max-width: 600px) {
-  /* line 165, ../../_sass/_mobile.scss */
+  /* line 174, ../../_sass/_mobile.scss */
   ul, ol {
     padding: 0 1rem;
     list-style-position: normal;
   }
 }
 @media screen and (max-width: 540px) {
-  /* line 174, ../../_sass/_mobile.scss */
+  /* line 183, ../../_sass/_mobile.scss */
   #pagefooter .about p {
     font-size: 0.7rem;
     line-height: 0.98rem;
