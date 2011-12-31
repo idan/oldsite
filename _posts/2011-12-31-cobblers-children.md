@@ -141,7 +141,7 @@ $(function() {
 [jekyll]: http://github.com/mojombo/jekyll
 [iawriter]: http://iawriter.com
 [ghpages]: http://pages.github.com
-[source]: http://github.com/idangazit.github.com
+[source]: http://github.com/idangazit/idangazit.github.com
 [readability]: http://readability.com
 [serif]: http://en.wikipedia.org/wiki/Serif#Readability_and_legibility
 [elena]: http://processtypefoundry.com/fonts/elena/
