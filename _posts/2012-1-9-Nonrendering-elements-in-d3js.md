@@ -6,7 +6,9 @@ title: Nonrendering elements in D3.js
 I just blew 24 hours chasing broken behavior in [D3.js](http://mbostock.github.com/d3/) which could have been prevented if:
 
 * I were a smarter bug-hunter. Or just smarter.
-* I dug a little further back into through the commit history to find [this commit](https://github.com/mbostock/d3/commit/11c1e7a906409d7748dec3193768c58739b26e45).
+* I dug a little further back into the commit history to find [this commit](https://github.com/mbostock/d3/commit/11c1e7a906409d7748dec3193768c58739b26e45).
+
+So yeah. Not a bug with D3, but still warrants a post to save others some frustration.
 
 ## Namespace prefixes are optional as of v2.6
 
