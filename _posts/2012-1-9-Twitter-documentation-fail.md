@@ -36,7 +36,7 @@ Twitter, I love your product, but why do things have to be this way? Good docume
 
 I can tolerate engineering limitations, even arbitrary ones! I may grumble, but accurate documentation is far more valuable. It enables me to write correct code without excessive defensive checks to protect me from you. They enable me, *your audience for this part of your product*, to trust you.
 
-Make this somebody’s job. Measure what works and what doesn’t by doing usability studies—it’s really easy! Get developers in a controlled setting and ask them to write code that consumes an endpoint in your API. Run that code against a large, varied slice of data. If there are failures, figure out what part of your documentation is responsible and write better documentation. Rinse and repeat for evey endpoint in your API.
+Make this somebody’s job. Measure what works and what doesn’t by doing usability studies—it’s really easy! Get developers in a controlled setting and ask them to write code that consumes an endpoint in your API. Run that code against a large, varied slice of data. If there are failures, figure out what part of your documentation is responsible and write better documentation. Rinse and repeat for every endpoint in your API.
 
 Love,
 
