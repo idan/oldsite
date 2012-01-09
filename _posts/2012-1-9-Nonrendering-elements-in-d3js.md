@@ -44,4 +44,6 @@ Use a newer D3, or make sure to use namespace prefixes if you’re using pre-2.6
 
 With both kinds of code in the wild, there's no good way to publicize this pitfall everywhere it could be encountered. It isn't really a backwards-incompatible change, as the old syntax still works. A project changelog highlighting this sort of major feature addition would be helpful, but it’s the kind of remedy which only helps *after* you’ve stepped in the poop and gone looking for solutions. Unfortunately, this post is that kind of remedy too.
 
+*Update: apparently there is a [project changelog](https://github.com/mbostock/d3/wiki/Release-Notes) which provides exactly the sort of clue I would've needed; it just lives in the github wiki instead of the source. See also: the first bullet point in this post.*
+
 Hopefully Google almighty will soon work its indexing magic so others can experience the cathartic bliss that comes with understanding why something is broken.
