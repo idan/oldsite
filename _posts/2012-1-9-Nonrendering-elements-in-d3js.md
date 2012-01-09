@@ -3,7 +3,7 @@ layout: post
 title: Nonrendering elements in D3.js
 ---
 
-I just blew 24 hours chasing a bug in [D3.js](http://mbostock.github.com/d3/) which could have been prevented if:
+I just blew 24 hours chasing broken behavior in [D3.js](http://mbostock.github.com/d3/) which could have been prevented if:
 
 * I were a smarter bug-hunter. Or just smarter.
 * I dug a little further back into through the commit history to find [this commit](https://github.com/mbostock/d3/commit/11c1e7a906409d7748dec3193768c58739b26e45).
@@ -30,11 +30,11 @@ var vis = d3.select("body")
     // ... 
 {% endhighlight %}
 
-This problem is compounded by a mixture of examples found on the web, especially examples like [this histogram](http://bl.ocks.org/993912) which statically link to an old version of d3 and do use the prefixes. If you take that source and try to modify it with code from the mainline [d3 examples](https://github.com/mbostock/d3/tree/master/examples), you will end up with a confusingly failsome situation.
+This problem is compounded by a mixture of examples found on the web, especially examples like [this histogram](http://bl.ocks.org/993912) which statically link to an old version of D3 and do use the prefixes. If you take that source and try to modify it with code from the mainline [D3 examples](https://github.com/mbostock/d3/tree/master/examples), you will end up with a confusingly failsome situation.
 
 ## Symptoms
 
-If you’re following examples on the web but you’re using an older version of D3, the problem manifests itself as 0×0 "invisible" elements in your browser. They show up in web inspector / firebug, but they don’t render in your viewport. More confusingly, if you’ve assigned width/height attributes, inspecting the element will highlight a region in your browser’s viewport, even though nothing gets painted inside.
+If you’re following examples on the web but you’re using an older version of D3, the problem manifests itself as 0×0 “invisible” elements in your browser. They show up in web inspector and firebug, but they don’t render in your viewport. More confusingly, if you’ve assigned width/height attributes, inspecting the element will highlight a region in your browser’s viewport, even though nothing gets painted inside.
 
 ## Solution
 
