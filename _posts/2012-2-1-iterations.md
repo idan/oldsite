@@ -13,7 +13,7 @@ If you’ve ever wondered how the design sausage is made, look no further! Note 
 
 TL;DR it turns out that design is a lot of work, just like code.
 
-*Apologies, but the embedded video won’t scale down to smaller screens, mainly because I was too lazy to figure it out. You can view the [original video here](http://gazit.me.s3.amazonaws.com/pycon_2012.m4v).
+*Apologies, but the embedded video won’t scale down to smaller screens, mainly because I was too lazy to figure it out. You can view the [original video here](http://gazit.me.s3.amazonaws.com/pycon_2012.m4v).*
 
 <!-- width="420" height="262" poster="my_video_poster.png"-->
 <video id="pycon_timelapse" class="video-js vjs-default-skin" controls
