@@ -5,7 +5,7 @@ title: Iterations
 
 So, in addition to [giving two talks](https://us.pycon.org/2012/speaker/profile/68/) at PyCon 2012, I also had the pleasure of designing their branding this year:
 
-<img src="http://dl.dropbox.com/u/247689/PyCon_US_2012_Color.png" style="max-width: 100%">
+<img src="http://gazit.me.s3.amazonaws.com/PyCon_US_2012_Color.png" style="max-width: 100%">
 
 I often get asked how I go about creating these things, so this time I decided to record my work, start to finish. All told, this project was about 7 hours in Adobe Illustrator, and another two or three hours sketching and brainstorming. With playback at 30x, the video below clocks in at 14 minutes.
 
