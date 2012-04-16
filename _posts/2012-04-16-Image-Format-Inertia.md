@@ -11,7 +11,7 @@ So what *would* it take for a new image format to gain traction on the web?
 
 The problem that these novel image formats are trying to solve are the wrong problems, in the sense that fixing these problems won’t be enough of a game-changer for the browser vendors to pay attention. Reducing filesize is no mean technical feat, but getting the holy quartet of browser vendors (Google, Apple, Mozilla, and Microsoft) to take action—preferably the *same* action—requires a lot of oomph. Note that I left Opera out, both because of their negligible market share, and because they would do something awesome without much prodding.
 
-Reducing filesize will forever be an incremental affair as new math is discovered for compressing image data. It’s unlikely that we’ll raise the temperature high enough/fast enough to make the [frog jump out of the boiling water](http://en.wikipedia.org/wiki/Boiling_frog). Right now, the only users in the developed world who are hurt by large file sizes are mobile users, but that’s not the crux of the problem. The fact that we can’t deliver images of appropriate resolution to different devices is.
+Reducing filesize will forever be an incremental affair as new math is discovered for compressing image data. It’s unlikely that we’ll raise the temperature high enough/fast enough to make the [frog jump out of the boiling water](http://en.wikipedia.org/wiki/Boiling_frog). The only users in the developed world who are hurt by large file sizes are mobile users, but filesize is not the crux of the problem. The fact that we can’t deliver images of appropriate resolution to different devices is.
 
 ## Responsive Images
 
