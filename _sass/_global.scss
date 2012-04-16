@@ -13,7 +13,7 @@ html {
     //@include baseline-grid-background;
 
     &.withbaseline {
-        background: url(../img/baselinegrid.png) left top repeat, url(../img/bg.png) left top repeat;        
+        background: url(../img/baselinegrid.png) left top repeat, url(../img/bg.png) left top repeat;
     }
 
 }
@@ -96,6 +96,19 @@ pre {
     }
     .lineno {
         color: #555;
+    }
+}
+
+figure {
+    img {
+        max-width: 100%;
+    }
+    figcaption {
+        font-style: italic;
+        color: #666;
+        text-align: center;
+        background: #eee;
+        @include rem(0.7, $top:0.5, $bottom:0.5);
     }
 }
 
