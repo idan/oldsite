@@ -3,7 +3,7 @@ layout: post
 title: Image Format Inertia
 ---
 
-Yesterday, Google’s [new-but-not-really image format](https://developers.google.com/speed/webp/) graced the front page of Hacker News, again. The comments were a predictable mix of “but that’s already been done in `$FORMAT`!” and “Meh, never going to gain traction.”
+Yesterday, Google’s [new-but-not-really image format](https://developers.google.com/speed/webp/) graced the front page of Hacker News, again. [The comments](http://news.ycombinator.com/item?id=3843839) were a predictable mix of “but that’s already been done in `$FORMAT`!” and “Meh, never going to gain traction.”
 
 So what *would* it take for a new image format to gain traction on the web?
 
