@@ -7,7 +7,7 @@ Yesterday, Google’s new-but-not-really [WebP image format](https://developers.
 
 So what *would* it take for a new image format to gain traction on the web?
 
-## “Good Enough”
+## So what if they’re smaller?
 
 The problem that these novel image formats are trying to solve are the wrong problems, in the sense that fixing these problems won’t be enough of a game-changer for the browser vendors to pay attention. Reducing filesize is no mean technical feat, but getting the holy quartet of browser vendors (Google, Apple, Mozilla, and Microsoft) to take action—preferably the *same* action—requires a lot of oomph. Note that I left Opera out, both because of their negligible market share, and because they would do something awesome without much prodding.
 
