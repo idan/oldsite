@@ -23,6 +23,17 @@ Naturally, smart people have come up with some [lovely](https://github.com/filam
 
 ## And WebP?
 
-There are two ways to solve the responsive image dilemma. HTML or CSS can allow authors to specify multiple sources for the same image, or images can get smarter about providing multiple  quality-versus-size breakpoints, in a manner reminiscent of Ogg Vorbis’ [Bitrate Peeling](http://en.wikipedia.org/wiki/Bitrate_peeling). With this sort of enhanced image format, browsers could stop reading image data from the server whenever they have enough data to show a satisfactory level of detail.
+There are two general solutions for the responsive image dilemma. One relies on improving the HTML and CSS specs so authors can specify multiple-resolution sources for images. This is tricky because right now, `<img>` lives in markup, which is blissfully unaware of the media queries which make responsive layouts possible.
+
+The other potential solution involves making the images themselves smarter. A new format which allowed browsers to download only the bits they need to render a resolution-appropriate image would obviate the need for changes to the HTML/CSS specifications. There are established techniques for this sort of thing. [Interlacing][interlacing] encodes images so that earlier bytes produce a complete but lower-resolution image. [Mipmaps][mipmaps] lay out images in a resolution “pyramid”, where each successive step is one-quarter  resolution. Ogg Vorbis’ [Bitrate Peeling][bitratepeeling] is basically interlacing for audio; adapting it for use with images wouldn’t be impossible, but it would require new server-side software, which probably makes it a non-starter. Bottom line, there are well-understood techniques out there.
+
+Unfortunately, this solution requires development of more than just a new image decoder; the browser’s network layer would need to be informed when to stop reading bytes off the wire. I don’t know whether current browser architectures make that kind of communication feasible, let alone easy.
+
+## Conclusion
 
 After a brief adolescent period of designing in parallel for mobile devices, we’re emerging into an adulthood where we design for the growing infinty of screen geometries. Responsive images are a critically absent tool in our arsenal. Designing an image format that attacks this problem would have a much greater impact than simply reducing filesize, and with all eyes on mobile, I’d bet that would get the attention of the browser vendors.
+
+
+[interlacing]: http://en.wikipedia.org/wiki/Interlace_(bitmaps)
+[mipmaps]: http://en.wikipedia.org/wiki/Mipmap
+[bitratepeeling]: http://en.wikipedia.org/wiki/Bitrate_peeling
