@@ -27,7 +27,7 @@ There are two general solutions for the responsive image dilemma. One relies on 
 
 The other potential solution involves making the images themselves smarter. A new format which allowed browsers to download only the bits they need to render a resolution-appropriate image would obviate the need for changes to the HTML/CSS specifications. There are established techniques for this sort of thing. [Interlacing][interlacing] encodes images so that earlier bytes produce a complete but lower-resolution image. [Mipmaps][mipmaps] lay out images in a resolution “pyramid”, where each successive step is one-quarter  resolution. Ogg Vorbis’ [Bitrate Peeling][bitratepeeling] is basically interlacing for audio; adapting it for use with images wouldn’t be impossible, but it would require new server-side software, which probably makes it a non-starter. Bottom line, there are well-understood techniques out there.
 
-Unfortunately, this solution requires development of more than just a new image decoder; the browser’s network layer would need to be informed when to stop reading bytes off the wire. I don’t know whether current browser architectures make that kind of communication feasible, let alone easy.
+Unfortunately, this solution requires development of more than just a new image decoder; the browser’s network layer would need to be informed when to stop reading bytes off the wire. I don’t know whether current browser architectures make that kind of internal communication feasible, let alone easy.
 
 ## Conclusion
 
