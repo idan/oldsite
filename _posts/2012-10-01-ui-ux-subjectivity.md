@@ -18,3 +18,5 @@ Cognition, perception, psychology, physiology. Audience and medium consideration
 So if you meet a fellow who claims that design is subjective, tell them that they’re right, if they choose to work with the little-league practitioners.
 
 If they’re developers, simply tell them that people who can’t explain their design decisions are like developers who don’t write documentation and tests. It doesn’t mean the code is bad, but it isn’t the mark of a professional.
+
+_Discuss this on [Hacker News](http://news.ycombinator.com/item?id=4600256)._
