@@ -7,9 +7,9 @@ Because design is often confused with art, designers must contend with the (mist
 
 UI/UX is purely a matter of taste in much the same way that cooking is just a matter of taste.
 
-There are a lot of cooks, even good cooks, who can make delicious food. They have an instinct for the art, and often these instincts are rooted in very different approaches. Some rely on having quality raw ingredients and improvise based on what's available. Others attempt to rigidly emulate proven techniques documented by the masters, without deviation. Some experiment until they hit on a winning technique.
+There are a many cooks who can prepare delicious food. They have an instinct for the art, and often these instincts are rooted in very different approaches. Some rely on having quality raw ingredients and improvise based on what's available. Others attempt to rigidly emulate proven techniques documented by the masters, without deviation. Some experiment until they hit on a winning technique.
 
-The difference between these people and professionals is that the professionals can articulate the _why_ of their choices. Professional chefs have a deep understanding of their craft: the effects of temperature and handling, the interactions of ingredients, the limits of their tools, the audience expectations surrounding presentation of food. Some of them are practically chemists of a culinary bent. They know the science and use it to inform their choices. This still leaves plenty of room for art and personality, but without the underlying understanding of principles it's either lucky guesswork or unlucky guesswork.
+The difference between these people and professionals is that the professionals can articulate the _why_ of their choices. Professional chefs have a deep understanding of their craft: the effects of temperature and handling, the interactions of ingredients, the limits of their tools, and the audience expectations surrounding presentation of food. Some of them are practically chemists of a culinary bent. They know the science and use it to inform their choices. This still leaves plenty of room for art and personality, but without the underlying understanding of principles it's either lucky guesswork or unlucky guesswork.
 
 Sadly, UI/UX is a field full of guesswork hams trying to pass for the real thing.
 
