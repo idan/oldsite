@@ -59,7 +59,7 @@ h3 {
 }
 
 p, ul, ol, pre {
-    @include rem(1, $top: 0, $bottom: 1);
+    @include rem(1, $top: 1, $bottom: 1);
 }
 
 blockquote {
