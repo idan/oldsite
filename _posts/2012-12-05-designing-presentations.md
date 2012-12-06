@@ -5,7 +5,7 @@ title: Designing Presentations
 
 Over the last few years [I’ve spoken at a number of conferences](http://lanyrd.com/idangazit) and a raft of local meetups. Most of these events are developer focused, and as a designer I feel like a fraud when complimented on my slides. Of _course_ I made them attractive. Just like you tidied up your project repositories before publicizing them on github. Besides, I have a professional rep to uphold.
 
-Unlike code, design intents aren’t easy to decompile from the finished product. What follows is an attempt to distill my thought process on how to craft decks which improve your presentation.
+Unlike code, design intents aren’t easy to decompile from the finished product. The indefatigable [Jesse Noller](http://twitter.com/jessenoller) recently started [speakup.io](http://speakup.io), an excellent initiative to help more community members take the plunge and give talks (or just improve the talks they already give!) What follows is an attempt to distill my thought process on how to craft presentations.
 
 It’s important to note that this is a scenario with no secondary goals. If you’re presenting, your goal is to engage your audience and inception some ideas into their heads while you have their precious, precious attention. Beauty is a means to that end, not a goal.
 
@@ -29,7 +29,7 @@ Like any good story, keeping a rapt audience involves doling out the plot in mea
 
 Mitigate this by never ever using bullet points or animation, and writing your content in a fashion that generates more questions than it supplies answers. 
 
-Good slides fall into one of three categories:
+Good slides fall into one of three categories.
 
 ### Teaser Text
 
@@ -68,7 +68,7 @@ Often you don’t need words here at all. If it’s a chart, consider leaving th
 
 All good narratives have a pace. You can’t be constantly climaxing or the audience will grow weary of you like the boy who cried wolf. Good thrillers have a moment of peaceful downtime or comic relief to break up the suspense.
 
-This doesn’t mean that you must share your favorite cat photo and tell the audience to stretch for 30 seconds (though that isn’t a terrible idea.) Take advantage of the fact that you have two voices onstage and have your slides disagree with your crackpot ideas. Show a funny image. [Flickr](http://www.flickr.com/search/advanced/) has a wealth of images which are available for use under a [Creative Commons attribution license](http://www.flickr.com/creativecommons/). Make sure to stick a url link back to the original in order to satisfy the terms of the license.
+This doesn’t mean that you must share your favorite cat photo and tell the audience to stretch for 30 seconds (though that isn’t a terrible idea.) Take advantage of the fact that you have two voices onstage and have your slides disagree with your crackpot ideas. Throw in some mild profanity, or allude to it with “%$#%^ing comic profanity”. Show a funny image. [Flickr](http://www.flickr.com/search/advanced/) has a wealth of images which are available for use under a [Creative Commons attribution license](http://www.flickr.com/creativecommons/). Just make sure to stick a url link back to the original in order to satisfy the terms of the license.
 
 <script async class="speakerdeck-embed" data-slide="33" data-id="505b2b05f4e6ad0002053d10" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
@@ -91,24 +91,40 @@ Less content also has another nice side effect: you can make your text large. En
 
 Don’t bother with clipart, animation, and other little visual embellishments. Better to have something clean, typographical, and timeless than a powerpoint cliché.
 
+Stick to bright, contrasty colors. Unless you’re the kind of geek that likes to color-calibrate the projectors you’ll be using, you can expect them to be pretty terrible. Subtle colors can be indistinguishable, highlights blown out, shadows choked up. What you see on your laptop will arguably _not_ be what the audience sees. If at all possible, hook up to the projector, in the actual room, with the actual lighting, and check out your slides before game time. Barring that, some defensive slide design is just good sense. Keeping your design simple is less work for you and offers less opportunities to fail.
+
 
 ## Speaking
 
-There’s no substitute for knowing your slides backwards and forwards. If you’re like me, then you’ll be obsessively tweaking your slides right up until the emcee is introducing you to the crowd, and you’ll have that intimate familiarity which comes of working with slides over time. If not, it’s a good idea to just go over your slides until you can’t stand the sight of them. The more bored you are by the end of preparation, the more free cycles your brain will have to devote to everything else onstage.
+Everybody will tell you to practice. A lot. They’re right, but I have an addendum.
 
-Pauses seem a lot more awkward to the speaker than the audience. Don’t be afraid to speak slowly and leave a few moments of silence. Wilson Miner’s famed “[When We Build](http://vimeo.com/34017777)” talk is a fantastic example of good talk pacing. His delivery is neither rushed nor slow, he pauses often, and every sentence feels deliberate. Music has rests to provide contrast with the notes, and speaking is no different.
+There’s no substitute for knowing your slides backwards and forwards. If you’re like me, then you’ll be obsessively tweaking your slides right up until you’re shoved onstage. Memorizing your talk’s structure is a concrete goal which I find to be easier than “practice over and over.” Just go over your slides until you can’t stand the sight of them. The more bored you are by the end of preparation, the more free cycles your brain will have onstage for being a great presenter, which is important, because everybody becomes about 90% stupider the moment they step out in front of a crowd. Every cycle counts.
+
+### Oratory
+
+There’s no way to get better at the _speaking_ part of speaking without, y’know, _speaking_. As much as possible.
+
+Every talk starts out rough. The first time you give it, you are beta-testing your talk. The second time you give the same talk, you’ve already figured out where the rough spots are, what makes the audience titter with laughter, which bits fall flat, and where your talk feels like it could stand improvement. Giving the same talk multiple times was critical to my growth as a speaker.
+
+One thing I’ve learned is that pauses seem a lot more awkward to the speaker than the audience. Don’t be afraid to speak slowly and leave a few moments of silence. Wilson Miner’s famed “[When We Build](http://vimeo.com/34017777)” talk is a fantastic example of good talk pacing. His delivery is neither rushed nor slow, he pauses often, and every sentence feels deliberate. Music has rests to provide contrast with the notes, and speaking is no different.
 
 Don’t feel obligated to stay stuck behind the podium. Check in with your conference A/V team to see if they can supply you with a wireless microphone. Part of getting into the speaking groove is connecting with your audience, and I find that it’s easier to do when there isn’t a chest-high obstruction in the way. That being said, don’t abuse your freedom. Pacing onstage like a leopard or shifting balance from foot to foot is terribly distracting.
 
-Look out at your audience. Make eye contact. Use your hands and gesticulate! They’ve probably sat through more bad talks than good ones in their lifetime, show them off the bat that your talk isn’t more of the same-old. Their mood will mirror yours. Faking confidence you don’t necessarily feel will cause your audience to see you as a confident speaker, which in turn boosts your confidence.
+Look out at your audience. Make eye contact. Use your hands and gesticulate! They’ve probably sat through more bad talks than good ones. Show them right away that your talk won’t be a snoozefest. Their mood will mirror yours. Faking confidence you don’t necessarily feel will cause your audience to see you as a confident speaker, which in turn boosts your confidence.
+
+Being animated doesn’t mean you need to be loud. Last Pycon, I flew in to town on the tail end of a nasty flu which left me voiceless the night before my talk. Remember the dream you had as a kid where you show up to school for an exam without your homework, and suddenly everybody is pointing at you because you’re also naked? That’s pretty much how I felt.
+
+The story had a happy ending, though: I unwittingly discovered an extremely effective conference hack: speaking softly. I delivered my talk in hushed tones, relying on the mic and amplifiers to get my voice out there. The overall volume of my talk wasn’t quieter than others thanks to the sound system, but the _tone_ created an atmosphere of quiet. There was none of the background hum of whispered conversations and even typing seemed loud and jarring.
 
 
 ## Conclusion
 
-There are two significant side effects to my presentation methodology:
+My presentation-fu is not without its downsides:
 
 1. It tends to produce a lot of (brief) slides. This isn’t good or bad—it just is. My presentation style meshes well with this approach. I usually end up with 1.5-2× the slides as minutes I have to present.
 
 2. It makes the slides inherently less useful without the accompanying talk, because most of the information I’m imparting isn’t in the slides.
 
-This isn’t religious dogma. Pick the parts that mesh well with your style, and most importantly—get out there and give talks!
+I can live with these tradeoffs, and I have a presentation technique that I can work with. This isn’t religious dogma. Pick the parts that mesh well with your style, and most importantly—get out there and give talks.
+
+_If your interest was piqued and you’re looking for more, make sure to get in touch with the folks at [speakup.io](http://speakup.io) for help._
