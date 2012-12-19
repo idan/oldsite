@@ -72,4 +72,5 @@ If you’re a foundry, what the hell are you waiting for? There’s an unserved 
 
 And if you really care about our business, remember that mobile developers aren’t the same desktop audience you’re used to serving. Design a pricing scheme that makes sense for this audience and you’ll see faster adoption—and a corresponding revenue stream.
 
+_Discuss this post on [Hacker News](http://news.ycombinator.com/item?id=4945043) and [Twitter](http://twitter.com/idangazit)._
 
