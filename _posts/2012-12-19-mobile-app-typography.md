@@ -74,3 +74,4 @@ And if you really care about our business, remember that mobile developers aren�
 
 _Discuss this post on [Hacker News](http://news.ycombinator.com/item?id=4945043) and [Twitter](http://twitter.com/idangazit)._
 
+_Update: The endearingly plainspoken [Monokrom Type Foundry](https://monokrom.no/) reached out to me [on Twitter](https://twitter.com/monokromfonts/status/281555158767378432) to point out that they have standard app-licensing terms, as well as a refreshing default of one included webfont domain per font purchase. Go check ’em out—their catalog is small but beautiful, and indie foundries like these are well worth supporting._
