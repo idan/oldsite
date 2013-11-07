@@ -7,13 +7,12 @@
 
 html {
     background-color: white;
-    background: url(../img/bg.png) left top repeat;
     font-size: 1.25em;
     line-height: 1.4em;
     //@include baseline-grid-background;
 
     &.withbaseline {
-        background: url(../img/baselinegrid.png) left top repeat, url(../img/bg.png) left top repeat;
+        background: url(../img/baselinegrid.png) left top repeat;
     }
 
 }
