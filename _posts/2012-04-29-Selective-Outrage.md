@@ -23,9 +23,9 @@ Steve is a fellow geek of liberal leanings, but I’ve noticed tweets in the fol
 <blockquote class="twitter-tweet"><p>Israel shown up for what it is: a repressive regime -http://bit.ly/JgEYkE</p>&mdash; Steve Holden (@holdenweb) <a href="https://twitter.com/holdenweb/status/196110586378067968" data-datetime="2012-04-28T05:36:22+00:00">April 28, 2012</a></blockquote>
 
 
-On the face of things, this seems relevant and not at all noteworthy. He has his political views, I have mine, they don’t align, no foul. These tweets are generally accompanied by a link, and the linked items do always include something I find to be worthy of outrage. I can not (nor do I have interest in) defending the things in the linked article or others like it.
+On the face of things, this seems relevant and not at all noteworthy. He has his political views, I have mine, they don’t align, no foul. These tweets are generally accompanied by a link, and the linked items do always include something I find to be worthy of outrage. I have no interest in defending the things in the linked article or others like it.
 
-Taken individually, these tweets are all justified. Taken collectively, they are a pattern of discrimination which I’ve seen over and over again: somebody whose connection to Israel/Palestine is tenuous at best decides to make this their pet issue. I take issue with the volume (both frequency and tone) of such complaints for two reasons:
+Taken individually, these tweets are all justified. Taken collectively, they are a pattern of discrimination which I’ve seen over and over again: somebody whose connection to Israel/Palestine is tenuous at best decides to make this their pet cause of the week. I take issue with the volume (both frequency and tone) of such complaints for two reasons:
 
 1. It is lacking in proportion to the tenuous relationship between their lives and Israel/Palestine.
 2. It is a selective application of outrage to some action of Israel’s when similarly outrage-worthy subjects are consistently ignored.
