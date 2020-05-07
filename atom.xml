@@ -5,8 +5,8 @@ layout: nil
 <feed xmlns="http://www.w3.org/2005/Atom">
  
   <title>Idan Gazit</title>
-  <link href="http://gazit.me/"/>
-  <link type="application/atom+xml" rel="self" href="http://gazit.me/atom.xml"/>
+  <link href="http://gazit.me/oldsite"/>
+  <link type="application/atom+xml" rel="self" href="{{ '/atom.xml' | prepend:site.baseurl }}"/>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
   <id>http://gazit.me/</id>
   <author>

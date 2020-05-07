@@ -3,92 +3,197 @@ layout: default
 ---
 
 <h2>Hi there.</h2>
-<p>I’m a designer/developer hybrid living in <strike>Tel Aviv</strike> San Francisco. I extract meaning from data at <a href="http://heroku.com">Heroku</a>.</p>
-<p>I’ve been a core developer and lead designer for the <a href="http://djangoproject.com">Django</a> web framework since 2011. I’m also a committer on <a href="http://python-requests.org">Requests</a>, and I’m active in various FOSS communities as both a developer and a designer.</p>
-<p>I often speak at conferences about subjects at the intersection of engineering and design. I delivered a <a href="http://lanyrd.com/2011/djangocon-us/sggmr">keynote address at Djangocon US 2011</a> about designers and open source projects. There’s a list of my talks further down this page.</p>
-<p>I designed the visual identities for various years of PyCon and DjangoCon. I'm proud to have helped organize these conferences and many local meetups, as well as mentoring startups as part of <a href="http://www.campustelaviv.com">Google Campus TLV</a>.</p>
-<p>Since 2014, I have been at <a href="https://heroku.com">Heroku</a>, as the founding/lead engineer of the Data UX team. In that role, I was responsible for building <a href="https://data.heroku.com">data.heroku.com</a> — the human interface to Heroku’s data products — from its first line of code. Owing to a lack of dedicated product and engineering managers, I often found myself wearing those hats for our team.</p>
-<p>In 2013, I built <a href="http://pushpin.io">Pushpin</a>, an analytics service for location data. I also taught interaction design at the Shenkar School of Engineering and Design here in Tel Aviv.</p>
-<p>In 2011–2012, I invested all my energy in <a href="http://skillsapp.com">Skills</a>, which was a tool for modern software companies looking to understand their candidates in ways that resumes weren’t designed to do. It visualized candidate activity to provide a useful, humanizing snapshot of developers. It didn’t work out, but I’m still keen on getting back to it when the right moment presents itself.</p>
-<p>I’ve collected a few of my <a href="/works">favorite works and designs</a>. Check out <a href="/static/img/IdanGazit_CV_2019.pdf">my CV</a> if you’re curious about more things that I’ve done. Also, here’s more <a href="/colophon">about me and my other online activities</a>.</p>
-
+<p>
+  I’m a designer/developer hybrid living in <strike>Tel Aviv</strike> San
+  Francisco. I extract meaning from data at
+  <a href="http://heroku.com">Heroku</a>.
+</p>
+<p>
+  I’ve been a core developer and lead designer for the
+  <a href="http://djangoproject.com">Django</a> web framework since 2011. I’m
+  also a committer on <a href="http://python-requests.org">Requests</a>, and I’m
+  active in various FOSS communities as both a developer and a designer.
+</p>
+<p>
+  I often speak at conferences about subjects at the intersection of engineering
+  and design. I delivered a
+  <a href="http://lanyrd.com/2011/djangocon-us/sggmr"
+    >keynote address at Djangocon US 2011</a
+  >
+  about designers and open source projects. There’s a list of my talks further
+  down this page.
+</p>
+<p>
+  I designed the visual identities for various years of PyCon and DjangoCon. I'm
+  proud to have helped organize these conferences and many local meetups, as
+  well as mentoring startups as part of
+  <a href="http://www.campustelaviv.com">Google Campus TLV</a>.
+</p>
+<p>
+  Since 2014, I have been at <a href="https://heroku.com">Heroku</a>, as the
+  founding/lead engineer of the Data UX team. In that role, I was responsible
+  for building <a href="https://data.heroku.com">data.heroku.com</a> — the human
+  interface to Heroku’s data products — from its first line of code. Owing to a
+  lack of dedicated product and engineering managers, I often found myself
+  wearing those hats for our team.
+</p>
+<p>
+  In 2013, I built <a href="http://pushpin.io">Pushpin</a>, an analytics service
+  for location data. I also taught interaction design at the Shenkar School of
+  Engineering and Design here in Tel Aviv.
+</p>
+<p>
+  In 2011–2012, I invested all my energy in
+  <a href="http://skillsapp.com">Skills</a>, which was a tool for modern
+  software companies looking to understand their candidates in ways that resumes
+  weren’t designed to do. It visualized candidate activity to provide a useful,
+  humanizing snapshot of developers. It didn’t work out, but I’m still keen on
+  getting back to it when the right moment presents itself.
+</p>
+<p>
+  I’ve collected a few of my
+  <a href="{{ '/works' | prepend:site.baseurl }}">favorite works and designs</a
+  >. Check out
+  <a href="{{ '/static/img/IdanGazit_CV_2019.pdf' | prepend:site.baseurl }}"
+    >my CV</a
+  >
+  if you’re curious about more things that I’ve done. Also, here’s more
+  <a href="{{ '/colophon' | prepend:site.baseurl }}"
+    >about me and my other online activities</a
+  >.
+</p>
 
 <h2>Posts</h2>
 {% for post in site.posts %}
-    <article class="index">
-        <time datetime="{{ post.date | date_to_xmlschema }}" pubdate>{{ post.date | date_to_string }}</time>
-        <header><a href="{{ post.url }}">{{ post.title }}</a></header>
-    </article>
+<article class="index">
+  <time datetime="{{ post.date | date_to_xmlschema }}" pubdate
+    >{{ post.date | date_to_string }}</time
+  >
+  <header>
+    <a href="{{ post.url | prepend:site.baseurl }}">{{ post.title }}</a>
+  </header>
+</article>
 {% endfor %}
 
 <h2>Talks</h2>
 <article class="index">
-    <time datetime="2012-20-11" pubdate>20 Nov 2012</time>
-    <header>
-        <h1><a href="http://www.w3c.org.il/HTML5fest/2012/lecturers.php?course_id=2&session_id=1&lecturer_id=1">Data Visualization with D3 and Web Standards</a></h1>
-        <p class="where">at HTML5Fest 2012. Lecture in Hebrew, <a href="https://speakerdeck.com/idangazit/data-visualization-with-d3-and-web-standards">slides</a> in English.</p>
-    </header>
+  <time datetime="2012-20-11" pubdate>20 Nov 2012</time>
+  <header>
+    <h1>
+      <a
+        href="http://www.w3c.org.il/HTML5fest/2012/lecturers.php?course_id=2&session_id=1&lecturer_id=1"
+        >Data Visualization with D3 and Web Standards</a
+      >
+    </h1>
+    <p class="where">
+      at HTML5Fest 2012. Lecture in Hebrew,
+      <a
+        href="https://speakerdeck.com/idangazit/data-visualization-with-d3-and-web-standards"
+        >slides</a
+      >
+      in English.
+    </p>
+  </header>
 </article>
 <article class="index">
-    <time datetime="2012-09-20" pubdate>20 Sept 2012</time>
-    <header>
-        <h1><a href="https://speakerdeck.com/idangazit/oss-communities">The Lonely Planet Guide to F/OSS Communities</a></h1>
-        <p class="where">at Open Source in the Holy Land</p>
-    </header>
+  <time datetime="2012-09-20" pubdate>20 Sept 2012</time>
+  <header>
+    <h1>
+      <a href="https://speakerdeck.com/idangazit/oss-communities"
+        >The Lonely Planet Guide to F/OSS Communities</a
+      >
+    </h1>
+    <p class="where">at Open Source in the Holy Land</p>
+  </header>
 </article>
 <article class="index">
-    <time datetime="2012-07-04" pubdate>4 Jul 2012</time>
-    <header>
-        <h1><a href="https://speakerdeck.com/idangazit/better-products-through-typography">Better Products Through Typography</a></h1>
-        <p class="where">at UX Israel Meetup</p>
-    </header>
+  <time datetime="2012-07-04" pubdate>4 Jul 2012</time>
+  <header>
+    <h1>
+      <a
+        href="https://speakerdeck.com/idangazit/better-products-through-typography"
+        >Better Products Through Typography</a
+      >
+    </h1>
+    <p class="where">at UX Israel Meetup</p>
+  </header>
 </article>
 <article class="index">
-    <time datetime="2012-03-12" pubdate>11 Mar 2012</time>
-    <header>
-        <h1><a href="http://lanyrd.com/2012/pycon/spckb/">Sketching a Better Product</a></h1>
-        <p class="where">at Pycon US 2012</p>
-    </header>
+  <time datetime="2012-03-12" pubdate>11 Mar 2012</time>
+  <header>
+    <h1>
+      <a href="http://lanyrd.com/2012/pycon/spckb/"
+        >Sketching a Better Product</a
+      >
+    </h1>
+    <p class="where">at Pycon US 2012</p>
+  </header>
 </article>
 <article class="index">
-    <time datetime="2012-03-09" pubdate>9 Mar 2012</time>
-    <header>
-        <h1><a href="http://lanyrd.com/2012/pycon/spbzf/">Data, Design, Meaning</a></h1>
-        <p class="where">at Pycon US 2012</p>
-    </header>
+  <time datetime="2012-03-09" pubdate>9 Mar 2012</time>
+  <header>
+    <h1>
+      <a href="http://lanyrd.com/2012/pycon/spbzf/">Data, Design, Meaning</a>
+    </h1>
+    <p class="where">at Pycon US 2012</p>
+  </header>
 </article>
 <article class="index">
-    <time datetime="2011-10-25" pubdate>25 Oct 2011</time>
-    <header>
-        <h1><a href="http://www.w3c.org.il/HTML5fest/lecturers.php?session_id=2&amp;lecturer_id=6">HTML5 Semantic Elements</a></h1>
-        <p class="where">at HTML5Fest 2011. Lecture in Hebrew, slides in English.</p>
-    </header>
+  <time datetime="2011-10-25" pubdate>25 Oct 2011</time>
+  <header>
+    <h1>
+      <a
+        href="http://www.w3c.org.il/HTML5fest/lecturers.php?session_id=2&amp;lecturer_id=6"
+        >HTML5 Semantic Elements</a
+      >
+    </h1>
+    <p class="where">
+      at HTML5Fest 2011. Lecture in Hebrew, slides in English.
+    </p>
+  </header>
 </article>
 <article class="index">
-    <time datetime="2011-09-07" pubdate>7 Sep 2011</time>
-    <header>
-        <h1><a href="http://lanyrd.com/2011/djangocon-us/sggmr">Keynote: Designers Make It Go to Eleven!</a></h1>
-        <p class="where">at DjangoCon US 2011.</p>
-    </header>
+  <time datetime="2011-09-07" pubdate>7 Sep 2011</time>
+  <header>
+    <h1>
+      <a href="http://lanyrd.com/2011/djangocon-us/sggmr"
+        >Keynote: Designers Make It Go to Eleven!</a
+      >
+    </h1>
+    <p class="where">at DjangoCon US 2011.</p>
+  </header>
 </article>
 <article class="index">
-    <time datetime="2011-06-06" pubdate>6 Jun 2011</time>
-    <header>
-        <h1><a href="http://lanyrd.com/2011/djangocon-europe/sfmzd/">One Size Fits All: Responsive Web Design with Django, Compass, and the Less Framework</a></h1>
-        <p class="where">at DjangoCon Europe 2011.</p>
-    </header>
+  <time datetime="2011-06-06" pubdate>6 Jun 2011</time>
+  <header>
+    <h1>
+      <a href="http://lanyrd.com/2011/djangocon-europe/sfmzd/"
+        >One Size Fits All: Responsive Web Design with Django, Compass, and the
+        Less Framework</a
+      >
+    </h1>
+    <p class="where">at DjangoCon Europe 2011.</p>
+  </header>
 </article>
 <article class="index">
-    <time datetime="2010-12-27" pubdate>27 Dec 2010</time>
-    <header>
-        <h1><a href="http://vimeo.com/18293793">CSS Extenders: Sass, Less, and Compass</a></h1>
-        <p class="where">at PyWeb-IL 27.</p>
-    </header>
+  <time datetime="2010-12-27" pubdate>27 Dec 2010</time>
+  <header>
+    <h1>
+      <a href="http://vimeo.com/18293793"
+        >CSS Extenders: Sass, Less, and Compass</a
+      >
+    </h1>
+    <p class="where">at PyWeb-IL 27.</p>
+  </header>
 </article>
 <article class="index">
-    <time datetime="2010-05-26" pubdate>26 May 2010</time>    
-    <header>
-        <h1><a href="http://lanyrd.com/2010/djangocon-eu/shpyz/">Design for Developers: Making Your Frontend Suck Less</a></h1>
-        <p class="where">at DjangoCon Europe 2010.</p>
-    </header>
+  <time datetime="2010-05-26" pubdate>26 May 2010</time>
+  <header>
+    <h1>
+      <a href="http://lanyrd.com/2010/djangocon-eu/shpyz/"
+        >Design for Developers: Making Your Frontend Suck Less</a
+      >
+    </h1>
+    <p class="where">at DjangoCon Europe 2010.</p>
+  </header>
 </article>

@@ -1,11 +1,28 @@
 <footer id="pagefooter">
-    <div class="row">
-    <a href="/colophon" class="avatar"><img src="/static/img/avatar_50.jpg" alt="Picture of Idan Gazit"></a>
+  <div class="row">
+    <a href="{{ '/colophon' | prepend:site.baseurl }}" class="avatar"
+      ><img
+        src="{{'/static/img/avatar_50.jpg' | prepend:site.baseurl }}"
+        alt="Picture of Idan Gazit"
+    /></a>
     <h1>Hey, this is me.</h1>
-    </div>
-    <section class="about">
-        <p>I make delightful things, mostly on the web.</p>
-        <p>I tweet as <a href="http://twitter.com/intent/user?screen_name=idangazit" class="twitter">@idangazit</a> more frequently than I write here. You can learn <a href="/colophon">more</a> about me and my other activities, online and off.</p>
-        <p class="copyright"><a href="http://feeds.feedburner.com/idangazit">RSS</a> &middot; &copy; {{ site.time | date: '%Y'}} Idan Gazit &middot; All rights reserved.</p>
-    </section>
+  </div>
+  <section class="about">
+    <p>I make delightful things, mostly on the web.</p>
+    <p>
+      I tweet as
+      <a
+        href="http://twitter.com/intent/user?screen_name=idangazit"
+        class="twitter"
+        >@idangazit</a
+      >
+      more frequently than I write here. You can learn
+      <a href="{{ '/colophon' | prepend:site.baseurl }}">more</a> about me and
+      my other activities, online and off.
+    </p>
+    <p class="copyright">
+      <a href="http://feeds.feedburner.com/idangazit">RSS</a> &middot; &copy; {{
+      site.time | date: '%Y'}} Idan Gazit &middot; All rights reserved.
+    </p>
+  </section>
 </footer>
